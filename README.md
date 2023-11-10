@@ -38,12 +38,14 @@ We plan to investigate and use the following technologies:
 
 ## Project Schedule
 Here is a general timeline for our project:
+| Date | Description |
+|------| ------------|
+|**11/10**| project proposal due.|
 
-**11/10**: project proposal due.
+|**11/15**| finish document about the courses that will be listed in the website. Have an idea on how we want the website to look like.|
 
-**11/15**: finish document about the courses that will be listed in the website. Have an idea on how we want the website to look like.
+|**11/20**| review the coding the first look of the website.|
 
-**11/20**: review the coding the first look of the website.
 **11/23**: implement the database into the website.
 
 **11/30**: Send it to some friends and classmates so that we could get feedback on what needs improvement.

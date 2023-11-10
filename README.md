@@ -19,6 +19,8 @@ For our project, we will create a website where students can give fedback and ra
 ### Stretch goal
 - Integration of ratings that will provide an overall score.
 - A comment section for users to ask questions.
+- The user can create a new page for a new course (if the course is not yet available).
+
 
 ## Learning Objectives
 Our shared learning objectives are to gain experience with web develoment. We want to understand and apply different libraries to create the best experience for the users. We want to learn and implement how to link the data base that we will be providing, with each one of the feedback submitions of the students. 
@@ -35,6 +37,19 @@ We plan to investigate and use the following technologies:
 
 
 ## Project Schedule
+Here is a general timeline for our project:
+
+**11/10**: project proposal due
+**11/15**: finish document about the courses that will be listed in the website. Have an idea on how we want the website to look like.
+**11/20**: review the coding the first look of the website.
+**11/23**: implement the database into the website.
+**11/30**: Send it to some friends and classmates so that we could get feedback on what needs improvement.
+**12/02**: final check of the project. Make sure everything is running smoothly. 
+**12/04**: final demo and presentation session,
+**12/08**: project website due.
+**12/09**: code submission.
+
+In between those dates, we will also have a *design review*, a *code review*, and a *mid-project presentation*. 
 
 ## Collaboration Plan
 

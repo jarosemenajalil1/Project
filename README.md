@@ -50,9 +50,12 @@ Here is a general timeline for our project:
 |**12/08**| Project website due.|
 |**12/09**| Code submission.|
 
-In between those dates, we will also have a *design review*, a *code review*, and a *mid-project presentation*. 
+In between this dates, we will also have a *design review*, a *code review*, and a *mid-project presentation*. 
 
 ## Collaboration Plan
+Communication is the most important aspect of the project. If there is no communicaiton betwween us, the project will be a total fail. 
+Our plan is that one in charge of the database and the other of the page's look. Each will present their ideas to the other and will share our thoughts and opinions. 
+Then, we will come together to insert the database in to the website and continue from there. 
 
 ## Risks and Limitations
 One thread to our projec'ts success is that 1. we wont be able to link a database with the website, 2. that the data entered by the users won't be put automatically in the database, and 3. that because there will be so much information, the information and/or our coding will get mixed up.

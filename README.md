@@ -29,7 +29,7 @@ Our shared learning objectives are to gain experience with web develoment. We wa
 I want to learn how to implement a database into the website and gain experience in problem solving and software design. 
 
 #### Juanse's objectives
-
+I want to learn how all the process of creating a website is so that i can replicate it for my personal venture ideas.
 
 ## Implementation Plan
 We plan to investigate and use the following technologies:

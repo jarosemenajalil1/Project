@@ -54,8 +54,10 @@ In between this dates, we will also have a *design review*, a *code review*, and
 
 ## Collaboration Plan
 Communication is the most important aspect of the project. If there is no communicaiton betwween us, the project will be a total fail. 
+We wil break down the project into smaller tasks and work on them iteratively.
 Our plan is that one in charge of the database and the other of the page's look. Each will present their ideas to the other and will share our thoughts and opinions. 
 Then, we will come together to insert the database in to the website and continue from there. 
+We will use GitHub to manage our code an dtrack our progress. And will be using WhatsApp to communicate with each other. 
 
 ## Risks and Limitations
 One thread to our projec'ts success is that 1. we wont be able to link a database with the website, 2. that the data entered by the users won't be put automatically in the database, and 3. that because there will be so much information, the information and/or our coding will get mixed up.

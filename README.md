@@ -23,10 +23,10 @@ For our project, we will create a website where students can give fedback and ra
 ## Learning Objectives
 Our shared learning objectives are to gain experience with web develoment. We want to understand and apply different libraries to create the best experience for the users. We want to learn and implement how to link the data base that we will be providing, with each one of the feedback submitions of the students. 
 
-### Luna's objectives
+#### Luna's objectives
 I want to learn how to implement a database into the website and gain experience in problem solving and software design. 
 
-### Juanse's objectives
+#### Juanse's objectives
 
 
 ## Implementation Plan
@@ -35,7 +35,7 @@ We plan to investigate and use the following technologies:
 
 
 ## Project Schedule
- 
+
 ## Collaboration Plan
 
 ## Risks and Limitations

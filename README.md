@@ -29,12 +29,9 @@ Our shared learning objectives are to gain experience with web develoment. We wa
 I want to learn how to implement a database into the website and gain experience in problem solving and software design. 
 
 #### Juanse's objectives
-I want to learn how all the process of creating a website is so that i can replicate it for my personal venture ideas.
+I want to learn how all the process of creating a website is so that I can replicate it for my personal venture ideas.
 
 ## Implementation Plan
-We plan to investigate and use the following technologies:
-- HTML for web design
-
 In order to create a class review website there are a series of steps that collectively shape the project's foundation that need to be tackled. The initial decision-making phase revolves around selecting a suitable web framework, with Flask and Django emerging as potential candidates. Exploring tutorials and community forums for both frameworks aids in making an informed choice, considering factors such as user-friendliness and alignment with project requirements.  
 
 Once the framework is chosen, attention turns to the database. Databases like SQLite or PostgreSQL are examined for their compatibility and integration ease with the selected web framework. Through hands-on experimentation, basic operations are performed to gauge factors such as scalability, ultimately leading to a decision that best fits the project's needs. 

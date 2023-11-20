@@ -30,7 +30,7 @@ def parse_html(html):
         print(name)
 
         #print course level 
-        course_number = row.find("span", attrs={"data-catlink data-catname":"courseCode"})
+        course_number = row.find("span", attrs={"data-catname": "courseCode"})
         print(course_number)
 
         courses.append((name, course_number))

@@ -1,61 +1,856 @@
-name,course_number
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/sen1337/"">
-                     
-                        A Crash Course In Surfing    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      SEN1337                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/hss2019/"">
-                     
-                        A History Of Food And Election Campaigns    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      HSS2019                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/ant4600/"">
-                     
-                        Accessing Health?des,inequal,pol Of Place    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      ANT4600                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/acc3546/"">
-                     
-                        Accounting Analytics    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      ACC3546                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/prf1200/"">
-                     
-                        Acting Workshop    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      PRF1200                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/acc4530/"">
-                     
-                        Advanced Accounting    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      ACC4530                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/eps4515/"">
-                     
-                        Affordable Design And Entrepreneurship    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      EPS4515                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/cva2002/"">
-                     
-                        Afr American History And Foodways    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      CVA2002                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/csp2002/"">
-                     
-                        Afr American History And Foodways    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      CSP2002                  </span>"
-"<div class=""h3"">
-<a href=""/about/course-catalog/new-course-search/undergraduate/all-courses/pol4601/"">
-                     
-                        Africa Rising?    </a>
-</div>","<span data-catlink="""" data-catname=""courseCode"" data-separator="","">
-                      POL4601                  </span>"
+name,course_number,course_level
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+A Crash Course In Surfing,SEN1337,
+A History Of Food And Election Campaigns,HSS2019,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+"Accessing Health?des,inequal,pol Of Place",ANT4600,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"
+Accounting Analytics,ACC3546,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Acting Workshop,PRF1200,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Free Elective (UGrad) </span>"
+Advanced Accounting,ACC4530,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Affordable Design And Entrepreneurship,EPS4515,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Elective (UGrad),Advanced Management (UGrad) </span>"
+Afr American History And Foodways,CVA2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Afr American History And Foodways,CSP2002,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Intermediate Liberal Arts (UGrad) </span>"
+Africa Rising?,POL4601,"<span data-catlink="""" data-catname=""courseLevel"" data-separator="","">
+                      Advanced Liberal Arts 4600 Requirement (UGrad),Advanced Elective (UGrad),Advanced Liberal Arts (UGrad) </span>"

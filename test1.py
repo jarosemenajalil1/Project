@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 
 DOWNLOAD_URL = "https://www.babson.edu/about/course-catalog/new-course-search/?courseType=undergraduate"
 
-
 def download_page(url):
     """
     Download the entire page given an URL
@@ -23,18 +22,22 @@ def parse_html(html):
 
     course_list = soup.find("div", attrs={"id": "section-content"})
     courses = []
-    for row in course_list.find_all("div", attrs={"class":"course-listing"}):
+    for x in range(1,46):
+        for row in course_list.find_all("div", attrs={"class":"course-listing"}):
 
-        #print name
-        name = row.find("div", attrs={"class":"h3"})
-        print(name)
+            #print name
+            name = row.find("div", attrs={"class":"h3"}).get_text().strip()
+            print(name)
 
-        #print course level 
-        course_number = row.find("span", attrs={"data-catname": "courseCode"})
-        print(course_number)
+            #print course level 
+            course_number = row.find("span", attrs={"data-catname": "courseCode"}).get_text().strip()
+            print(course_number)
+                    
+            #print level
+            course_level = row.find("span", attrs={"data-catname": "courseLevel"}).get_text().strip()
+            print(course_level)
 
-        courses.append((name, course_number))
-
+            courses.append((name, course_number, course_level))
     return courses
 
 parse_html(download_page(DOWNLOAD_URL).read())
@@ -45,7 +48,7 @@ def main():
     with open("data/babson_courses.csv", "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
 
-        fields = ("name", "course_number")
+        fields = ("name", "course_number", "course_level")
         writer.writerow(fields)
 
         html = download_page(url)

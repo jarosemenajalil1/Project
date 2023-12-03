@@ -1,30 +1,39 @@
-from flask import Flask, render_template, request, flash, url_for, redirect
+from flask import Flask, render_template, request, flash, url_for, redirect, Blueprint
 import csv
 
 app = Flask(__name__)
 
+CSV_FILE = "data/babson_courses.csv"
+data = []
+with open(CSV_FILE) as file:
+    csv_reader = csv.reader(file)
+    for row in csv_reader:
+        data.append(row)
+
 @app.route('/')
-def get_course_name():
-    with open('data/babson_courses.csv') as f:
-        data = csv.reader(f, delimiter = ",")
-        first_line = True
-        courses = []
-        for row in data:
-            if not first_line:
-                courses.append({
-                    "name": row[0],
-                    "course_number": row[1],
-                    "course_level": row[2]
-                })
-            else:
-                first_line = False
-    return render_template("index.html", courses = courses)
+def index():
+    return render_template("index.html")
 
 
+@app.route("/search")
+def search():
+    q = request.args.get("q")
+    matched_data = [row for row in data if query.lower() in row[0].lower()]
+    return render_template("index.html")
 
-@app.route(f'/{course_search}')
-def courses_search():
-    return render_template("course")
+
+#     print(q)
+
+#     if q:
+#         f.query.filter(f.course_number.icontains(q)).order_by(f.name.desc()).limit(100).all()
+#     else:
+#         results = []
+    
+#     return render_template("search_results.html", results = results)
+
+# @app.route(f'/{course_search}')
+# def courses_search():
+#     return render_template("course")
 
 if __name__=="__main__":
     app.run(debug=True)

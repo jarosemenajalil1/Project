@@ -1,45 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rate my Course</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate My Classes</title>
 </head>
 
 <body>
-
-<h1>Rate my Babson Course</h1>
-
-<h3>Type the course number to get started</h3>
-
-<form>
-  <label for="course_search">Course Number:</label>
-  <input type="text" id="course_search" onkeyup="search()">
-</form>
-
-<table id="results">
-  <thead>
-    <tr>
-      <th>Course Title</th>
-      <th>Course Number</th> 
-      <th>Course Level</th>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
-
-<script>
-function search() {
-
-    let query = document.getElementById("course_search").value;
-    fetch(`/search?query=${query}`)
-        .then(response => response.json())
-        .then(data => {
-});
-
-}
-</script>
-
+    <h1 style="text-align: center; color: #333;">Rate My Classes</h1>
+    <ul>
+        {% for course in courses %}
+            <li style="border: 1px solid #ccc; margin-bottom: 10px; padding: 10px; background-color: #fff;">
+                <strong>{{ course.name }}</strong>
+                <a href="{{ url_for('rate_course', course_index=loop.index0) }}">Rate</a>
+            </li>
+        {% endfor %}
+    </ul>
 </body>
+
 </html>

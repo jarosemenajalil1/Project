@@ -21,7 +21,7 @@ For our project, we will create a website where students can give fedback and ra
 - A comment section for users to ask questions.
 - The user can create a new page for a new course (if the course is not yet available).
 
-
+****
 ## Learning Objectives
 Our shared learning objectives are to gain experience with web develoment. We want to understand and apply different libraries to create the best experience for the users. We want to learn and implement how to link the data base that we will be providing, with each one of the feedback submitions of the students. 
 

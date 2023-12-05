@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate my Course</title>
+</head>
+<body>
+    <h1>Rate my Babson Course</h1>
+    <h3>Type the course number to get started</h3>
+    <form action="/course_babson" method="post">
+    <label for= "course_search">
+        Course Number:
+        <input type="text" id="course_search" name="course_search"
+        required/>
+        <button type="submit">Find</button>
+    </label>
+    <table> class = "table is-fullwidth"
+        <thead>
+            <tr>
+                <th>Course Title</th>
+                <th>Couse Number</th>
+                <th>Course Level</th>
+            </tr>
+        </thead>
+    </table>
+    
+    
+</body>
+</html>

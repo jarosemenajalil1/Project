@@ -17,9 +17,14 @@ def index():
 
 @app.route("/search")
 def search():
-    q = request.args.get("q")
-    matched_data = [row for row in data if query.lower() in row[0].lower()]
-    return render_template("index.html")
+    query = request.args.get("q")
+    matched_data = []
+    for row in data:
+        if query.lower() in row[1].lower():
+            matched_data.append(row)
+    return jsonfy(matched_data)
+
+    # return render_template("index.html")
 
 
 #     print(q)

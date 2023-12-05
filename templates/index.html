@@ -32,35 +32,11 @@
 <script>
 function search() {
 
-  let q = document.getElementById("course_search").value;
-
-  fetch(`/search?query=${query}`)
-    .then(response => response.json())
-    .then(data => {
-      
-      let tbody = document.querySelector("#results tbody");
-      tbody.innerHTML = "";
-
-      data.forEach(item => {
-        let row = document.createElement("tr");
-        
-        let titleCell = document.createElement("td");
-        titleCell.innerText = item[0];
-        
-        let numberCell = document.createElement("td");
-        numberCell.innerText = item[1];
-        
-        let levelCell = document.createElement("td"); 
-        levelCell.innerText = item[2];
-
-        row.appendChild(titleCell);
-        row.appendChild(numberCell);
-        row.appendChild(levelCell);
-        
-        tbody.appendChild(row);
-      });
-
-    });
+    let query = document.getElementById("course_search").value;
+    fetch(`/search?query=${query}`)
+        .then(response => response.json())
+        .then(data => {
+});
 
 }
 </script>

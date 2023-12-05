@@ -34,7 +34,7 @@ def load_user(user_id):
 @app.route("/")
 def index():
     courses = Course.query.all()
-    return render_template("index.html", courses=courses)
+    return render_template("index2.html", courses=courses)
 
 @app.route("/rate/<int:course_id>", methods=["GET", "POST"])
 @login_required

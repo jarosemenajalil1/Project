@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details: {{ course_number }}</title>
+</head>
+<body>
+    <h1>Course Details: {{ course_number }}</h1>
+
+    <!-- Section to display course ratings -->
+    <h2>Ratings for this Course</h2>
+    {% if ratings %}
+        <ul>
+            {% for rating in ratings %}
+                <li>
+                    <strong>Usefulness:</strong> {{ rating.usefulness }} / 5,
+                    <strong>Difficulty:</strong> {{ rating.difficulty }} / 5,
+                    <strong>Workload:</strong> {{ rating.workload }} / 5,
+                    <strong>Comment:</strong> {{ rating.comment }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No ratings have been submitted for this course yet.</p>
+    {% endif %}
+
+    <!-- Link to go back to the main page or search results -->
+    <a href="{{ url_for('index') }}">Return to Home</a>
+</body>
+</html>

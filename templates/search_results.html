@@ -1,9 +1,36 @@
-{% for resutls in results %}
-<tr>
-    <td>{{results.title }}</td>
-    <td>{{results.name }}</td>
-    <td>{{results.course_title }}</td>
-    <td>{{results.course_level }}</td>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <!-- Add any additional head content such as CSS links -->
+</head>
+<body>
+    <h1>Search Results</h1>
 
-</tr>
-{% endfor %}
+    <!-- Check if there are any results -->
+    {% if results %}
+        <table style="width:100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px;">Course Title</th>
+                    <th style="border: 1px solid #ddd; padding: 8px;">Course Number</th>
+                    <th style="border: 1px solid #ddd; padding: 8px;">Course Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for result in results %}
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">{{ result[0] }}</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;"><a href="{{ url_for('course', course_number=result[1]) }}">{{ result[1] }}</a></td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">{{ result[2] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No results found.</p>
+    {% endif %}
+</body>
+</html>

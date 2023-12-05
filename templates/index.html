@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rate My Classes</title>
+    <!-- Add any CSS links here if you have -->
 </head>
-
 <body>
-    <h1 style="text-align: center; color: #333;">Rate My Classes</h1>
-    <ul>
-        {% for course in courses %}
-            <li style="border: 1px solid #ccc; margin-bottom: 10px; padding: 10px; background-color: #fff;">
-                <strong>{{ course.name }}</strong>
-                <a href="{{ url_for('rate_course', course_index=loop.index0) }}">Rate</a>
-            </li>
-        {% endfor %}
-    </ul>
-</body>
+    <h1 style="text-align: center;">Rate My Classes at Babson</h1>
+    <p style="text-align: center;">Search for a course to rate or view ratings</p>
 
+    <!-- Search form -->
+    <div style="text-align: center;">
+        <form action="/search" method="get">
+            <input type="text" name="q" placeholder="Enter course number or title" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- You can add more content here if needed -->
+
+</body>
 </html>

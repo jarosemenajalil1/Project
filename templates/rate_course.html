@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Course: {{ course_number }}</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: #333;">Rate Course: {{ course_number }}</h1>
+    
+    <!-- Rating Form -->
+    <form style="max-width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff;" 
+          method="post" action="{{ url_for('rate_course', course_number=course_number) }}">
+        
+        <label>Usefulness (1-5): <input type="number" name="usefulness" min="1" max="5" required></label><br>
+        <label>Difficulty (1-5): <input type="number" name="difficulty" min="1" max="5" required></label><br>
+        <label>Workload (1-5): <input type="number" name="workload" min="1" max="5" required></label><br>
+        <label>Comment: <textarea name="comment"></textarea></label><br>
+        <button type="submit">Submit Rating</button>
+    </form>
+
+    <!-- Link to view all ratings for this course -->
+    <a href="{{ url_for('course', course_number=course_number) }}">View all ratings for this course</a>
+</body>
+</html>

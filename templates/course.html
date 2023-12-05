@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Course Details: {{ course_details[0] }}</title>
 </head>
 <body>
-    
+    <h1>Course Details: {{ course_details[0] }}</h1>
+    <!-- Display other course details here -->
+
+    <h2>Ratings for this Course</h2>
+    <!-- Display course ratings here -->
+    {% if ratings %}
+        <ul>
+            {% for rating in ratings %}
+                <li>
+                    <strong>Usefulness:</strong> {{ rating.usefulness }} / 5,
+                    <strong>Difficulty:</strong> {{ rating.difficulty }} / 5,
+                    <strong>Workload:</strong> {{ rating.workload }} / 5,
+                    <strong>Comment:</strong> {{ rating.comment }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No ratings have been submitted for this course yet.</p>
+    {% endif %}
+
+    <!-- Link to rate this course -->
+    <a href="{{ url_for('rate_course', course_number=course_details[1]) }}" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Rate This Class</a>
+
+    <!-- Link to go back to the main page -->
+    <a href="{{ url_for('index') }}" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">Return to Home</a> 
+       
+    <!-- Button to rate this course 
+     -->
+
+    <!-- Link to go back to the main page or search results 
+     -->
+
 </body>
 </html>

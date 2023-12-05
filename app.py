@@ -34,7 +34,12 @@ def load_user(user_id):
 @app.route("/")
 def index():
 <<<<<<< HEAD
+<<<<<<< HEAD
     return render_template("index2.html")
+=======
+    courses = Course.query.all()
+    return render_template("index.html", courses=courses)
+>>>>>>> f66286108adc9ac263d520f6cea964abc4328cc9
 =======
     courses = Course.query.all()
     return render_template("index.html", courses=courses)

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate {{ course.name }}</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: #333;">Rate {{ course.name }}</h1>
+    <form style="max-width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff;" method="post" action="{{ url_for('rate_course', course_index=loop.index0) }}">
+        <!-- Form content here -->
+    </form>
+
+    <h2>Previous Ratings</h2>
+    <ul>
+        {% for rating in course.ratings %}
+            <li style="border: 1px solid #ccc; margin-bottom: 10px; padding: 10px; background-color: #fff;">
+                Difficulty: {{ rating.difficulty }},
+                Usefulness/Value: {{ rating.usefulness }},
+                Comment: {{ rating.comment }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

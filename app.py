@@ -65,6 +65,9 @@ def rate_course(course_number):
 
 @app.route("/course/<course_number>")
 def course(course_number):
+    # Retrieve course details - implement this based on how your data is structured
+    course_details = next((item for item in data if item[1] == course_number), None)
+
     # Load ratings from JSON
     try:
         with open('ratings.json', 'r') as file:
@@ -74,10 +77,8 @@ def course(course_number):
 
     course_ratings = all_ratings.get(course_number, [])
 
-    # Fetch course details from your data (if available)
-    # ...
+    return render_template("course.html", course_details=course_details, ratings=course_ratings)
 
-    return render_template("course.html", course_number=course_number, ratings=course_ratings)
 
 @app.route("/average_ratings")
 def show_average_ratings():

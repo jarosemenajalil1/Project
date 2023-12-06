@@ -1,93 +1,88 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
-from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
+from flask import Flask, render_template, request, redirect, url_for
+import csv
+import json
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'  # Use SQLite for simplicity
-app.config['SECRET_KEY'] = 'your_secret_key'
-db = SQLAlchemy(app)
-login_manager = LoginManager(app)
-login_manager.login_view = 'login'
 
-# Sample data (you'll replace this with a database later)
-class Course(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-    ratings = db.relationship('Rating', backref='course', lazy=True)
+CSV_FILE = "data/babson_courses.csv"
+data = []
+with open(CSV_FILE) as file:
+    csv_reader = csv.reader(file)
+    for row in csv_reader:
+        data.append(row)
 
-class Rating(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    difficulty = db.Column(db.Integer, nullable=False)
-    usefulness = db.Column(db.Integer, nullable=False)
-    comment = db.Column(db.Text)
-    course_id = db.Column(db.Integer, db.ForeignKey('course.id'), nullable=False)
+def store_rating(course_number, usefulness, difficulty, workload, comment):
+    # Load existing data
+    try:
+        with open('ratings.json', 'r') as file:
+            ratings = json.load(file)
+    except FileNotFoundError:
+        ratings = {}
 
-class User(db.Model, UserMixin):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(20), unique=True, nullable=False)
-    password = db.Column(db.String(60), nullable=False)
+    # Update with new rating
+    if course_number not in ratings:
+        ratings[course_number] = []
+    ratings[course_number].append({
+        "usefulness": usefulness,
+        "difficulty": difficulty,
+        "workload": workload,
+        "comment": comment
+    })
 
-@login_manager.user_loader
-def load_user(user_id):
-    return User.query.get(int(user_id))
+    # Save data back to file
+    with open('ratings.json', 'w') as file:
+        json.dump(ratings, file)
 
-@app.route("/")
+@app.route('/')
 def index():
-<<<<<<< HEAD
-<<<<<<< HEAD
-    return render_template("index2.html")
-=======
-    courses = Course.query.all()
-    return render_template("index.html", courses=courses)
->>>>>>> f66286108adc9ac263d520f6cea964abc4328cc9
-=======
-    courses = Course.query.all()
-    return render_template("index.html", courses=courses)
->>>>>>> f66286108adc9ac263d520f6cea964abc4328cc9
+    return render_template("index.html")
 
-@app.route("/rate/<int:course_id>", methods=["GET", "POST"])
-@login_required
-def rate_course(course_id):
-    course = Course.query.get_or_404(course_id)
+@app.route("/search")
+def search():
+    query = request.args.get("q")
+    matched_data = []
+    for row in data:
+        if query.lower() in row[1].lower():
+            matched_data.append(row)
+    return render_template("search_results.html", results=matched_data)
 
+@app.route("/rate_course/<course_number>", methods=["GET", "POST"])
+def rate_course(course_number):
     if request.method == "POST":
-        difficulty = int(request.form.get("difficulty"))
-        usefulness = int(request.form.get("usefulness"))
+        usefulness = request.form.get("usefulness")
+        difficulty = request.form.get("difficulty")
+        workload = request.form.get("workload")
         comment = request.form.get("comment")
 
-        # Save the rating and comment to the database
-        new_rating = Rating(difficulty=difficulty, usefulness=usefulness, comment=comment, course=course)
-        db.session.add(new_rating)
-        db.session.commit()
+        # Store the rating
+        store_rating(course_number, usefulness, difficulty, workload, comment)
 
-        return redirect(url_for("index"))
+        # Redirect to the course details page
+        return redirect(url_for("course", course_number=course_number))
 
-    return render_template("rate_course.html", course=course)
+    return render_template("rate_course.html", course_number=course_number)
 
-@app.route("/login", methods=["GET", "POST"])
-def login():
-    if request.method == "POST":
-        username = request.form.get("username")
-        password = request.form.get("password")
-        user = User.query.filter_by(username=username).first()
 
-        if user and user.password == password:
-            login_user(user)
-            flash("Login successful", "success")
-            return redirect(url_for("index"))
-        else:
-            flash("Login unsuccessful. Check your username and password.", "danger")
+@app.route("/course/<course_number>")
+def course(course_number):
+    # Load ratings from JSON
+    try:
+        with open('ratings.json', 'r') as file:
+            all_ratings = json.load(file)
+    except FileNotFoundError:
+        all_ratings = {}
 
-    return render_template("login.html")
+    course_ratings = all_ratings.get(course_number, [])
 
-@app.route("/logout")
-@login_required
-def logout():
-    logout_user()
-    return redirect(url_for("index"))
+    # Fetch course details from your data (if available)
+    # ...
+
+    return render_template("course.html", course_number=course_number, ratings=course_ratings)
+
+@app.route("/average_ratings")
+def show_average_ratings():
+    average_ratings = calculate_average_ratings()
+    return render_template("average_ratings.html", average_ratings=average_ratings)
 
 if __name__ == "__main__":
-    with app.app_context():
-        db.create_all()
     app.run(debug=True)
-

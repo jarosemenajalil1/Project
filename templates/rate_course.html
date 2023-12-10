@@ -6,7 +6,7 @@
     <title>Rate Course: {{ course_number }}</title>
 </head>
 <body>
-    <h1 style="text-align: center; color: #333;">Rate Course: {{ course_number }}</h1>
+        <h1 style="text-align: center; color: #333;">Rate Course: {{ course_number }}</h1>
     
     <!-- Rating Form -->
     <form style="max-width: 400px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff;" 
@@ -16,10 +16,10 @@
         <label>Difficulty (1-5): <input type="number" name="difficulty" min="1" max="5" required></label><br>
         <label>Workload (1-5): <input type="number" name="workload" min="1" max="5" required></label><br>
         <label>Comment: <textarea name="comment"></textarea></label><br>
-        <button type="submit">Submit Rating</button>
+        <button type="submit"style="display: inline-block; margin-top: 20px; padding: 5px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">Submit Rating</button>
     </form>
 
     <!-- Link to view all ratings for this course -->
-    <a href="{{ url_for('course', course_number=course_number) }}">View all ratings for this course</a>
+    <a href="{{ url_for('course', course_number=course_number) }}" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">View all ratings for this course</a>
 </body>
 </html>

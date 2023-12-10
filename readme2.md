@@ -8,3 +8,8 @@ Our website allows Babson College students to rate courses and view arggregated 
 ### The code explained
 #### Before you run the code
 Before you run any code you will have to install some libraries in your computer. Those libraries are: flask, json, csv, BeautifulSoup and urllib.request. 
+
+#### Start by scraping Babson's website 
+After you have all the libraries installed, scraping the website is the next step. With the scraper.py file you are going to be able to download the entire page, and scrape the course name, course number and course level of each of Babson College courses. The information gathered will be saved in a csv file named babson_courses.csv.
+
+#### Flask for the website
